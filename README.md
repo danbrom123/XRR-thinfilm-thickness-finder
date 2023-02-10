@@ -21,7 +21,9 @@ Subtracting equation 1 and 2 means we can find a relation between $d$ and $\thet
 
 Now rearranging for $d$:
 
-(4)&nbsp;   $(n+1)^2 - n^2 = 4d^2(\sin(\theta_{n+1})^2-\sin(\theta_n)^2)$
+(4)&nbsp;   $d=\left (\frac{(2n+1)\lambda^2}{4(\sin(\theta_{n+1})^2-\sin(\theta_n)^2)}\right )^{1/2}$
+
+Therefore in plotting $((2n+1)\lambda^2)^{1/2}$ vs $(4(\sin(\theta_{n+1})^2-\sin(\theta_n)^2))^{1/2}$ we find the gradient is equal to $d$ i.e. the thickness of our thin film
 
 
 
