@@ -7,14 +7,21 @@ I wrote this GUI as I needed to quickly find the thickness of some metal thin fi
 
 From Bragg's law we know:
 
-$n\lambda = 2d\sin(\theta_n)$
+(1)&nbsp;   $n\lambda = 2d\sin(\theta_n)$
 
 where $n$ is the diffraction order, $\lambda$ is the wavelength of the X-rays (in this case we use Cu K-alpha -  1.54 Å), $d$ is the thickness of our thin film, $\theta_n$ is the angle at which the X-rays are constructively interferred i.e the centre of the Bragg peak.
 
-If we compare the next peak at $n+1$:
+If we compare the next peak at $n+1$ the equation becomes:
 
-$(n+1)\lambda = 2d\sin(\theta_{n+1})$
+(2)&nbsp;   $(n+1)\lambda = 2d\sin(\theta_{n+1})$
 
+Subtracting equation 1 and 2 means we can find a relation between $d$ and $\theta$ for $n,n+1, n+2,..., n+n'$ diffraction orders: 
+
+(3)&nbsp;   $(n+1)^2 - n^2 = 4d^2(\sin(\theta_{n+1})^2-\sin(\theta_n)^2)$
+
+Now rearranging for $d$:
+
+(4)&nbsp;   $(n+1)^2 - n^2 = 4d^2(\sin(\theta_{n+1})^2-\sin(\theta_n)^2)$
 
 
 
