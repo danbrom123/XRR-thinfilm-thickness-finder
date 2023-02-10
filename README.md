@@ -25,5 +25,12 @@ Now rearranging for $d$:
 
 Therefore in plotting $((2n+1)\lambda^2)^{1/2}$ vs $(4(\sin(\theta_{n+1})^2-\sin(\theta_n)^2))^{1/2}$ we find the gradient is equal to $d$ i.e. the thickness of our thin film
 
+## Requirements
+- Python 3.6
+- matplotlib
+- numpy
+- tkinter
+- wx
+- ctypes
 
 
