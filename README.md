@@ -25,11 +25,11 @@ Now rearranging for $d$:
 
 Therefore in plotting $((2n+1)\lambda^2)^{1/2}$ vs $(4(\sin(\theta_{n+1})^2-\sin(\theta_n)^2))^{1/2}$ we find the gradient is equal to $d$ i.e. the thickness of our thin film
 
-## tl;dr benefits
+## benefits
 - Can quickly determine thickness of single thin film 
-- Takes far less time to setup and requires significant memory than complicated X-ray fitting software
+- Takes far less time to setup and use and requires almost no disk space compared to complicated X-ray fitting software
 - Allows for user to define Bragg peak centres, rather than using automated Guassian peaks to fit them (such as scipy), which is difficult to achieve when there is a high signal to noise ratio
-- 
+- Can use save function in toolbars of plots to quickly save figures to any desired location 
 
 ## Requirements
 - Python 3.6
@@ -38,5 +38,14 @@ Therefore in plotting $((2n+1)\lambda^2)^{1/2}$ vs $(4(\sin(\theta_{n+1})^2-\sin
 - tkinter
 - wx
 - ctypes
+
+## Instructions
+- Run main.py
+- Choose X-ray data file (theta/2theta scan) using file browser popup
+- Click 'plot' button to produce GUI of data
+- Instructions on how to identify Bragg peaks and place markers are at top of GUI
+- Click 'enter' when identified peaks
+- Figure showing calculation of film thickness is produced, this can be saved  
+
 
 
