@@ -25,7 +25,7 @@ Now rearranging for $d$:
 
 Therefore in plotting $((2n+1)\lambda^2)^{1/2}$ vs $(4(\sin(\theta_{n+1})^2-\sin(\theta_n)^2))^{1/2}$ we find the gradient is equal to $d$ i.e. the thickness of our thin film
 
-## benefits
+## Benefits
 - Can quickly determine thickness of single thin film 
 - Takes far less time to setup and use and requires almost no disk space compared to complicated X-ray fitting software
 - Allows for user to define Bragg peak centres, rather than using automated Guassian peaks to fit them (such as scipy), which is difficult to achieve when there is a high signal to noise ratio
